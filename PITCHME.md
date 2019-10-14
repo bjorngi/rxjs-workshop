@@ -99,7 +99,7 @@ https://rxjs-dev.firebaseapp.com/guide/observable
 https://rxjs-dev.firebaseapp.com/guide/subscription
 @snapend
 
-* Observables gjør ingenting uten en/flere Subscriptions
+* Observables gjør ingenting uten én/flere *Subscriptions*
 * Reaksjonen på data fra Observables
 
 
@@ -110,6 +110,7 @@ https://rxjs-dev.firebaseapp.com/guide/subscription
 @[3, zoom-13]
 @[4, zoom-13]
 @[5, zoom-13]
+
 
 ---
 @snap[north span-100]
@@ -127,50 +128,78 @@ https://rxjs-dev.firebaseapp.com/guide/subscription
 ## Operators
 https://rxjs-dev.firebaseapp.com/guide/operators
 @snapend
-* Observable<string> -> lenght -> Observable<number>
+* Utility functions
+* Tar inn *Observable* returnerer ny *Observable*
+* Gjenbrukbar logikk
+* Funksjonell tilnærming
 
 ---
-@snap[north span-100]
-## Pipe
-@snapend
+https://rxviz.com/v/dJBZ4KVJ
 
 ---
+
 @snap[north span-100]
 ## Oppgave 1
-* https://rxviz.com/
-* https://rxjs-dev.firebaseapp.com
 @snapend
+
+Filtrer output til å bare vise partall over 2
+https://rxviz.com/v/jOLXGPMO
+
 
 ---
 @snap[north span-100]
 ## Oppgave 2
 @snapend
-*
-*
+
+Summer de 7 første tallene
+https://rxviz.com/v/jOLXGPMO
+
+@snap[south]
+@size[30px](hint: *take*, *scan*)
+@snapend
 
 ---
 @snap[north span-100]
 ## Oppgave 3
 @snapend
 
+Grupper partall og oddetall i hver sin stream
+https://rxviz.com/v/jOLXGPMO
+
+@snap[south]
+@size[30px](hint: *partition*, *merge*)
+@snapend
+
+
+
 ---
 @snap[north span-100]
 ## Subject
 @snapend
+
 
 ---
 @snap[north span-100]
 ## Oppgave 4
 @snapend
 
----
-@snap[north span-100]
-## Testing
 
 ---
 @snap[north span-100]
 ## Oppgave 5
 @snapend
+Klon repo og sjekk oppgavetekst i README.md.
+https://github.com/bjorngi/rxjs-hooks-starter
+
+@snap[south]
+@size[30px](hint: *rxjs-hooks* docs)
+@snapend
+
+
+
+---
+@snap[north span-100]
+## Testing
 
 
 ---
@@ -178,6 +207,18 @@ https://rxjs-dev.firebaseapp.com/guide/operators
 ## Redux Observable
 https://redux-observable.js.org/
 @snapend
+* Redux middleware
+* Async Redux actions
+* *Actions* in, *actions* out
+* Epics
+
+---
+@code[ts](code/epic.ts)
+@[1-4]
+@[5]
+@[6-8]
+@[9-13]
+@[1-16]
 
 ---
 @snap[]
@@ -187,4 +228,6 @@ https://redux-observable.js.org/
 ---
 @snap[north span-100]
 ## Ressurser
+https://rxjs-dev.firebaseapp.com/
+https://www.learnrxjs.io
 @snapend

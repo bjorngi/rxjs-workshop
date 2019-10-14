@@ -9,3 +9,5 @@ theme-code       : [ "Source Code Pro" ]
 theme-controls   : [ "#484848" ]
 theme-margins    : [ "0", "15px" ]
 theme-override : PITCHME.css
+pro-menus-hidden: true
+published : true
