@@ -105,12 +105,14 @@ https://rxjs-dev.firebaseapp.com/guide/subscription
 
 
 ---
-@code[ts](code/observable.ts)
+@code[ts code-reveal-fast](code/observable.ts)
 
+@[1-5, zoom-13]
 @[1, zoom-13]
 @[3, zoom-13]
 @[4, zoom-13]
 @[5, zoom-13]
+@[1-5, zoom-13]
 
 
 ---
@@ -130,12 +132,16 @@ https://rxjs-dev.firebaseapp.com/guide/subscription
 https://rxjs-dev.firebaseapp.com/guide/operators
 @snapend
 * Utility functions
-* Tar inn *Observable* returnerer ny *Observable*
 * Funksjonell tilnærming
+* Tar inn *Observable* returnerer ny *Observable*
 * Pipe
 
 ---
 https://rxviz.com/v/dJBZ4KVJ
+
+@snap[south span-100]
+@size[30px](Hva skal jeg bruke? <br /> https://rxjs-dev.firebaseapp.com/operator-decision-tree)
+@snapend
 
 ---
 
@@ -146,7 +152,9 @@ https://rxviz.com/v/dJBZ4KVJ
 Filtrer output til å bare vise partall over 2
 https://rxviz.com/v/jOLXGPMO
 
-
+@snap[south]
+@size[30px](hint: *%* - javascript modulo)
+@snapend
 ---
 @snap[north span-100]
 ## Oppgave 2
