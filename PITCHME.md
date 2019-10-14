@@ -24,7 +24,7 @@ Bjørn Gilstad
 - Alt er en *stream* av data over tid
 - Programmerer reaksjonen på data
 - Alle strømmer er like
-- *Pull* vs. *Push* modell
+- Fra *Pull* til *Push* modell
 @ulend
 
 ---
