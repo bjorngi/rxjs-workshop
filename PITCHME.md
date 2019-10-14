@@ -22,7 +22,7 @@ Bjørn Gilstad
 @ul[west]
 
 - Alt er en *stream* av data over tid
-- Programmerer rekasjonen på data
+- Programmerer reaksjonen på data
 - Alle strømmer er like
 - *Pull* vs. *Push* modell
 @ulend
