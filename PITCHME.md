@@ -90,6 +90,7 @@ https://rxjs-dev.firebaseapp.com/guide/observable
 @snapend
 
 * Kilde til data over tid
+* Ingen lovnad om data, men en mulighet
 * Hot og Cold observables
 
 ---
@@ -130,8 +131,8 @@ https://rxjs-dev.firebaseapp.com/guide/operators
 @snapend
 * Utility functions
 * Tar inn *Observable* returnerer ny *Observable*
-* Gjenbrukbar logikk
 * Funksjonell tilnærming
+* Pipe
 
 ---
 https://rxviz.com/v/dJBZ4KVJ
@@ -170,37 +171,48 @@ https://rxviz.com/v/jOLXGPMO
 @size[30px](hint: *partition*, *merge*)
 @snapend
 
-
-
 ---
 @snap[north span-100]
 ## Subject
+https://rxjs-dev.firebaseapp.com/guide/subject
 @snapend
-
+* Spesiell type observable
+* Deler data med alle subscribers
+* `share()` eller `shareReplay()`
 
 ---
 @snap[north span-100]
 ## Oppgave 4
 @snapend
 
+Subscribe 2 ganger på `numbers$`. Få tallene til å bli like på begge *subscriptions* selv om de er random.
 
----
-@snap[north span-100]
-## Oppgave 5
-@snapend
-Klon repo og sjekk oppgavetekst i README.md.
-https://github.com/bjorngi/rxjs-hooks-starter
+https://rxviz.com/v/0oqKx4AJ
 
 @snap[south]
-@size[30px](hint: *rxjs-hooks* docs)
+@size[30px](hint: *zip*, *share*)
 @snapend
-
 
 
 ---
 @snap[north span-100]
 ## Testing
+https://rxjs-dev.firebaseapp.com/guide/testing/marble-testing
+@snapend
 
+* Marble testing
+* Mocking av tid
+* TestScheduler
+
+---
+@code[ts](code/testing.ts)
+@[3-5]
+@[3-10]
+@[3-13]
+@[3-17]
+@[3-21]
+@[3-23]
+@[1-25]
 
 ---
 @snap[north span-100]
@@ -219,6 +231,17 @@ https://redux-observable.js.org/
 @[6-8]
 @[9-13]
 @[1-16]
+
+---
+@snap[north span-100]
+## Oppgave 5
+@snapend
+Klon repo og sjekk oppgavetekst i README.md.
+https://github.com/bjorngi/rxjs-hooks-starter
+
+@snap[south]
+@size[30px](hint: *rxjs-hooks* docs)
+@snapend
 
 ---
 @snap[]
