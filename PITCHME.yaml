@@ -2,8 +2,8 @@ theme            : template
 
 theme-background : [ "#F6F6F6" ]
 theme-headline   : [ "Ubuntu", "#6c2d8a", "none" ]
-theme-byline     : [ "Ubuntu", "#111111", "none" ]
-theme-text       : [ "Ubuntu", "#1C1C1C", "none" ]
+theme-byline     : [ "Ubuntu", "#444", "none" ]
+theme-text       : [ "Ubuntu", "#444", "none" ]
 theme-links      : [ "#5289F7", "#5254F7" ]
 theme-code       : [ "Source Code Pro" ]
 theme-controls   : [ "#484848" ]
